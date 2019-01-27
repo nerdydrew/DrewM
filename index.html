@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Drew Mitchell</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+
+	<script>
+		if(location.hostname == "callmedrew.com") {
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-15477984-17', 'auto');
+			ga('send', 'pageview');
+		}
+	</script>
+</head>
+
+<body>
+
+<p id="rc"><img src="RC200.png" alt="Rubber chicken" /></p>
+
+<p>I&rsquo;m Drew Mitchell, a software engineer at <a href="https://www.mimsoftware.com/">MIM Software</a>.</p>
+
+<p>I made <a href="https://pooatcwru.com">Poo at <abbr title="Case Western Reserve University">CWRU</abbr></a> (for finding restrooms on campus) and <a href="https://randompokemon.com/">Random Pok&eacute;mon Generator</a>. I also transpose sheet music for clarinet at <a href="https://callmedrew.com/sheetmusic/">Drew&rsquo;s Sheet Music</a>.</p>
+
+
+<ul>
+	<li><a href="mailto:hi@callmedrew.com">Email</a></li>
+	<li><a href="https://github.com/nerdydrew">GitHub</a></li>
+	<li><a href="https://www.linkedin.com/in/nerdydrew">LinkedIn</a></li>
+</ul>
+
+
+<script src="fontfaceobserver.js"></script>
+<script> // https://github.com/bramstein/fontfaceobserver
+	var font = new FontFaceObserver('Franklin Gothic Web');
+	font.load().then(function () {
+		document.documentElement.className += " fg";
+	});
+</script>
+
+</body>
+</html>

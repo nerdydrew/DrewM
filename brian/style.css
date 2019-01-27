@@ -1,0 +1,50 @@
+*,html,body,div,dl,dt,dd,ul,ol,li,pre,form,label,fieldset,input,p,blockquote{margin:0;padding:0}
+body{background:#CBE8F1 url(images/gradient.jpg) repeat-x left top fixed;color:#000;font:32px/1.5 Arial,sans-serif;text-align:center;}
+p{margin:1em 0}ol{list-style-type:none}li{margin:150px 0 300px}
+blockquote p{margin:.5em 0}
+strong{text-transform:uppercase;text-shadow:1px 1px 1px #000}
+
+h1,h2,h3,h4,h5,h6{font-family:LeagueGothic,Haettenschweiler,Impact,sans-serif;font-weight:400;margin:.5em 0;clear:both;}
+h1{font-size:160px}h2{font-size:140px;text-transform:uppercase;}h3{font-size:100px}h4{font-size:80px}h5{font-size:60px}h6{font-size:40px}
+
+.zelda{width:420px;margin:0 auto 150px;padding-bottom:180px;position:relative;background:url(images/ocarina.png) no-repeat center bottom;}
+.zelda h1{color:#C23;font:164px Triforce,LeagueGothic,Haettenschweiler,Impact,sans-serif;margin:0;text-shadow:1px 1px 1px #000;letter-spacing:0;}
+.zelda h1:first-letter{font-size:180px;}
+.zelda h2,.zelda h3{font-family:Charlemagne,Georgia,serif;font-size:24px;text-transform:uppercase;position:absolute;left:155px;margin:0;}
+.zelda h2{top:90px}.zelda h3{bottom:210px}.zelda h3 sup{font-size:10px}
+
+.kaepora{background:url(images/kaepora.png) no-repeat left top;min-height:200px;}
+.kaepora.right{background:url(images/kaeporaright.png) no-repeat right top;}
+.kaepora blockquote{background:#FFF;-moz-border-radius:4px;border-radius:4px;position:relative;padding:20px;margin:1em 0 3em;float:left;margin-left:200px;}
+.kaepora.right blockquote{float:right;margin-right:200px;}
+blockquote:after{content:"\00a0";display:block;position:absolute;z-index:-1;left:-40px;top:50px;width:0;height:0;border-width:20px;border-style:solid;border-color:transparent #FFF transparent transparent;}
+.kaepora.right blockquote:after{left:auto;right:-40px;border-color:transparent transparent transparent #FFF;}
+
+#ground{position:relative;margin-top:400px;clear:both;}
+img.bg{width:100%;height:auto;position:absolute;bottom:0;left:0;z-index:-1;}
+
+#best h3{background:url(images/1st.png) no-repeat center bottom;padding-bottom:220px;}
+#tingle{background:url(images/tingle.png) no-repeat center bottom;padding-bottom:320px;}
+
+#footer{font-size:16px;padding:50px;margin-top:50px;clear:both;}
+
+@font-face{font-family:'Charlemagne';src:url('fonts/charlemagne-webfont.eot');
+    src:url('fonts/charlemagne-webfont.eot?iefix') format('eot'),
+         url('fonts/charlemagne-webfont.woff') format('woff'),
+         url('fonts/charlemagne-webfont.ttf') format('truetype'),
+         url('fonts/charlemagne-webfont.svg#webfontI0MwvyCu') format('svg');
+    font-weight:normal;font-style:normal}
+
+@font-face{font-family:'LeagueGothic';src:url('fonts/league_gothic-webfont.eot');
+    src:url('fonts/league_gothic-webfont.eot?iefix') format('eot'),
+         url('fonts/league_gothic-webfont.woff') format('woff'),
+         url('fonts/league_gothic-webfont.ttf') format('truetype'),
+         url('fonts/league_gothic-webfont.svg#webfontzQ9se9xg') format('svg');
+    font-weight:normal;font-style:normal}
+
+@font-face{font-family:'Triforce';src:url('fonts/triforce-webfont.eot');
+    src:url('fonts/triforce-webfont.eot?iefix') format('eot'),
+         url('fonts/triforce-webfont.woff') format('woff'),
+         url('fonts/triforce-webfont.ttf') format('truetype'),
+         url('fonts/triforce-webfont.svg#webfontZ49wbuX0') format('svg');
+    font-weight:normal;font-style:normal}
