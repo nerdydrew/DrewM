@@ -5,16 +5,11 @@
 		url('fonts/franklingothic-book-webfont.woff') format('woff');
 	font-weight:400;
 	font-style:normal;
+	font-display:swap;
 }
 
-html{color:#333;background:#FFF;font:1.25em/1.618 Helvetica Neue,Arial,sans-serif}
-.fg{font-family:Franklin Gothic Web,Franklin Gothic Book,Helvetica Neue,Arial,sans-serif}
-
-p{font-size:.92em;line-height:1.78;letter-spacing:.01em}
-.fg p{font-size:1em;line-height:1.618;letter-spacing:0}
-
+html{color:#333;background:#FFF;font:1.25em/1.618 Franklin Gothic Web,Franklin Gothic Book,Helvetica Neue,Arial,sans-serif}
 body{margin:1.5em auto;max-width:24em;padding:1em}
-
 
 #rc{background:#9fd1e9;background:linear-gradient(#9fd1e9, #82c3e3);
 	height:6em;width:6em;max-height:175px;max-width:175px;border-radius:6em;
