@@ -1,29 +1,43 @@
 @font-face {
-	font-family:'Franklin Gothic Web';
-	src:local('Franklin Gothic Book'),
-		url('fonts/franklingothic-book-webfont.woff2') format('woff2'),
-		url('fonts/franklingothic-book-webfont.woff') format('woff');
+	font-family: 'Yellowtail';
+	src: url('fonts/yellowtail-regular.woff2') format('woff2'),
+		url('fonts/yellowtail-regular.woff') format('woff');
 	font-weight:400;
 	font-style:normal;
 	font-display:swap;
 }
 
-html{color:#333;background:#FFF;font:1.25em/1.618 Franklin Gothic Web,Franklin Gothic Book,Helvetica Neue,Arial,sans-serif}
-body{margin:1.5em auto;max-width:24em;padding:1em}
+html{color:#FFF;background:#2D2242;background:linear-gradient(#2D2242, #190039) fixed;
+	font:1.25em/1.618 Helvetica Neue,Arial,sans-serif}
+body{margin:1.5em auto;padding:1em}
 
-#rc{background:#9fd1e9;background:linear-gradient(#9fd1e9, #82c3e3);
-	height:6em;width:6em;max-height:175px;max-width:175px;border-radius:6em;
-	margin:2em auto;overflow:hidden;text-align:center;font-size:1em}
-#rc img{margin-top:.75em;width:auto;height:6em;max-height:175px}
+h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 .5em}
+#drew{padding-right:3.6em;display:block;transform:rotate(-7deg);font:1.25em/.9 'Yellowtail',cursive;
+	color:#f264e6;font-weight:400;text-shadow:0 0 .05em #ef45e1,.05em .1em .1em rgba(0,0,0,.5)}
+#mitchell{text-transform:uppercase;background:linear-gradient(#aa51a1, #e46d4b);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke:.025em #fefe05}
 
-a{color:#19D;text-decoration:none}
-a:hover{color:#DB6138}
-a:active{text-decoration:underline}
+#rc{filter:drop-shadow(0 0 .6em #c92f69);background:#fb3ebd;
+	background:linear-gradient(
+		#fffd39,
+		#fea669 40%,transparent 40%,transparent 43%,#fea669 43%,
+		#fe9076 50%,transparent 50%,transparent 54%,#fe9076 54%,
+		#fe648f 60%,transparent 60%,transparent 64%,#fe648f 64%,
+		#fe4e9b 70%,transparent 70%,transparent 75%,#fe4e9b 75%,
+		#fe35aa 80%,transparent 80%,transparent 85%,#fe35aa 85%,
+		#fe30ac 90%,transparent 90%,transparent 94%,#fe30ac 94%,
+		#fb3ebd);
+	height:6em;width:6em;border-radius:6em;
+	margin:2em auto 0;overflow:hidden;text-align:center;font-size:1em}
+#rc img{margin-top:.75em;width:auto;height:6em}
+
+a{color:#FCFB08;text-decoration:none}
+a:hover{text-decoration:underline}
 
 ul{list-style-type:none;margin-left:0;padding-left:0;text-align:center}
-ul li{margin:0 .75em;padding:0;display:inline}
+ul.short li{margin:0 .75em;padding:0;display:inline}
 
 @media (min-width:30em) AND (min-height:30em) {html{font-size:1.5em}}
-@media (max-width:25em), (max-height:25em) {#rc{font-size:.75em;margin:1.5em auto}}
-@media (max-width:20em), (max-height:20em) {#rc{font-size:.5em;margin:0 auto}}
 @media (max-width:15em), (max-height:15em) {html{font-size:1em}}
