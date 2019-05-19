@@ -13,10 +13,10 @@ body{margin:0 auto;padding:0}
 
 article{overflow:hidden;min-height:100vh;position:relative;perspective:30em;perspective-origin:top}
 article::after{content:"";position:absolute;top:20vh;bottom:-1em;left:-10em;right:-10em;
-	transform:rotateX(70deg);z-index:-1;
+	transform:rotateX(70deg);z-index:-1;opacity:.4;
 	background-image:
-		repeating-linear-gradient(to top, #800b76 0,#800b76 1px,transparent 1px,transparent 1em),
-		repeating-linear-gradient(to left,#800b76 0,#800b76 1px,transparent 1px,transparent 2em);
+		repeating-linear-gradient(to top, #f264e6 0,#f264e6 1px,transparent 1px,transparent 1em),
+		repeating-linear-gradient(to left,#f264e6 0,#f264e6 1px,transparent 1px,transparent 2em);
 }
 
 header{margin:0;padding:20vh 1em 1.5em;
