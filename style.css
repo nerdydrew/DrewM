@@ -7,17 +7,20 @@
 	font-display:swap;
 }
 
-html{color:#FFF;background:#2D2242;background:linear-gradient(#2D2242, #190039) fixed;
+html{color:#FFF;background:#000;
 	font:1.25em/1.618 Helvetica Neue,Arial,sans-serif}
-body{margin:1.5em auto;padding:1em}
+body{margin:0 auto;padding:0}
 
-h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 .5em}
+header{margin:0;padding:4em 1em 1.5em;position:relative;
+	background:linear-gradient(#2D2242, #190039 94%, #FFF 97%, transparent)}
+
+h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 0}
 #drew{padding-right:3.6em;display:block;transform:rotate(-7deg);font:1.25em/.9 'Yellowtail',cursive;
 	color:#f264e6;font-weight:400;text-shadow:0 0 .05em #ef45e1,.05em .1em .1em rgba(0,0,0,.5)}
 #mitchell{text-transform:uppercase;background:linear-gradient(#aa51a1, #e46d4b);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  -webkit-text-stroke:.025em #fefe05}
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-text-stroke:.025em #fefe05}
 
 #rc{filter:drop-shadow(0 0 .6em #c92f69);background:#fb3ebd;
 	background:linear-gradient(
@@ -30,13 +33,13 @@ h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 .5em}
 		#fe30ac 90%,transparent 90%,transparent 94%,#fe30ac 94%,
 		#fb3ebd);
 	height:6em;width:6em;border-radius:6em;
-	margin:2em auto 0;overflow:hidden;text-align:center;font-size:1em}
+	margin:0 auto 0;overflow:hidden;text-align:center;font-size:1em}
 #rc img{margin-top:.75em;width:auto;height:6em}
 
 a{color:#FCFB08;text-decoration:none}
 a:hover{text-decoration:underline}
 
-ul{list-style-type:none;margin-left:0;padding-left:0;text-align:center}
+ul{list-style-type:none;margin-left:0;padding:0 1em;text-align:center}
 ul.short li{margin:0 .75em;padding:0;display:inline}
 
 @media (min-width:30em) AND (min-height:30em) {html{font-size:1.5em}}
