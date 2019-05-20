@@ -25,7 +25,10 @@ header{margin:0;padding:20vh 1em 1.5em;
 h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 0}
 #drew{padding-right:3.6em;display:block;transform:rotate(-7deg);font:1.25em/.9 'Yellowtail',cursive;
 	color:#f264e6;font-weight:400;text-shadow:0 0 .05em #ef45e1,.05em .1em .1em rgba(0,0,0,.5)}
-#mitchell{text-transform:uppercase;background:linear-gradient(#aa51a1, #e46d4b);
+#mitchell{text-transform:uppercase;
+	filter:drop-shadow( .01em 0 .025em #a09567) drop-shadow(0  .01em .025em #a09567)
+	       drop-shadow(-.01em 0 .025em #a09567) drop-shadow(0 -.01em .025em #a09567);
+	background:linear-gradient(#aa51a1 25%, #e46d4b 75%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	-webkit-text-stroke:.025em #fefe05}
