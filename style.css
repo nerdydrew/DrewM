@@ -7,7 +7,7 @@
 	font-display:swap;
 }
 
-html{color:#FFF;background:#000;
+html{color:#FFF;background:#190039;background:radial-gradient(#40003c,#190039) fixed;
 	font:1.25em/1.618 Helvetica Neue,Arial,sans-serif}
 body{margin:0 auto;padding:0}
 
@@ -16,11 +16,11 @@ article::after{content:"";position:absolute;top:20vh;bottom:-1em;left:-10em;righ
 	transform:rotateX(70deg);z-index:-1;opacity:.4;
 	background-image:
 		repeating-linear-gradient(to top, #f264e6 0,#f264e6 1px,transparent 1px,transparent 1em),
-		repeating-linear-gradient(to left,#f264e6 0,#f264e6 1px,transparent 1px,transparent 2em);
+		repeating-linear-gradient(to left,#f264e6 0,#f264e6 1px,transparent 1px,transparent 2em)
 }
 
-header{margin:0;padding:20vh 1em 1.5em;
-	background:linear-gradient(#2D2242, #190039 94%, #FFF 97%, transparent)}
+header{margin:0;padding:20vh 1em 1.25em;
+	background-image:linear-gradient(#050143, #40003c 96%, #FFF 98%, transparent)}
 
 h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 0}
 #drew{padding-right:3.6em;display:block;transform:rotate(-7deg);font:1.25em/.9 'Yellowtail',cursive;
