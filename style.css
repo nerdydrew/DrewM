@@ -19,8 +19,18 @@ article::after{content:"";position:absolute;top:20vh;bottom:-1em;left:-10em;righ
 		repeating-linear-gradient(to left,#f264e6 0,#f264e6 1px,transparent 1px,transparent 2em)
 }
 
-header{margin:0;padding:20vh 1em 1.25em;
-	background-image:linear-gradient(#050143, #40003c 96%, #f8e1fc 98%, transparent)}
+header{margin:0;background-image:linear-gradient(#050143, #40003c 96%, #f8e1fc 98%, transparent)}
+.stars{padding:20vh 1em 1.25em;background-image:
+		radial-gradient(1px 1px at 267px 108px, #FFF, transparent),
+		radial-gradient(2px 2px at 265px 268px, #FFF, transparent),
+		radial-gradient(2px 2px at 253px 210px, #FFF, transparent),
+		radial-gradient(2px 2px at 261px 18px, #FFF, transparent),
+		radial-gradient(2px 2px at 46px 220px, #FFF, transparent),
+		radial-gradient(2px 2px at 157px 251px, #FFF, transparent),
+		radial-gradient(1px 1px at 214px 291px, #FFF, transparent),
+		radial-gradient(2px 2px at 142px 109px, #FFF, transparent),
+		radial-gradient(1px 1px at 3px 61px, #FFF, transparent);
+	background-repeat:repeat;background-size:300px 300px;background-position:-1000vw -1000vh}
 
 h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 0}
 #drew{padding-right:3.6em;display:block;transform:rotate(-7deg);font:1.25em/.9 'Yellowtail',cursive;
