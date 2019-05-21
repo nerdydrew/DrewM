@@ -8,7 +8,7 @@
 }
 
 html{color:#FFF;background:#190039;background:radial-gradient(#40003c,#190039) fixed;
-	font:1.25em/1.618 Helvetica Neue,Arial,sans-serif}
+	font:1.25em/1.618 Avenir,Segoe UI,Futura,Century Gothic,sans-serif}
 body{margin:0 auto;padding:0}
 
 article{overflow:hidden;min-height:100vh;position:relative;perspective:30em;perspective-origin:top}
@@ -25,7 +25,7 @@ header{margin:0;padding:20vh 1em 1.25em;
 h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 0}
 #drew{padding-right:3.6em;display:block;transform:rotate(-7deg);font:1.25em/.9 'Yellowtail',cursive;
 	color:#f264e6;font-weight:400;text-shadow:0 0 .05em #ef45e1,.05em .1em .1em rgba(0,0,0,.5)}
-#mitchell{text-transform:uppercase;
+#mitchell{text-transform:uppercase;font-weight:900;
 	filter:drop-shadow( .01em 0 .025em #a09567) drop-shadow(0  .01em .025em #a09567)
 	       drop-shadow(-.01em 0 .025em #a09567) drop-shadow(0 -.01em .025em #a09567);
 	background:linear-gradient(#aa51a1 25%, #e46d4b 75%);
