@@ -32,8 +32,8 @@ header{margin:0;background-image:linear-gradient(#050143, #40003c 96%, #f8e1fc 9
 		radial-gradient(1px 1px at 3px 61px, #FFF, transparent);
 	background-repeat:repeat;background-size:300px 300px;background-position:-1000vw -1000vh}
 
-h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 0}
-#drew{padding-right:3.6em;display:block;transform:rotate(-7deg);font:1.25em/.9 'Yellowtail',cursive;
+h1{text-align:center;line-height:1;font-size:3em;margin:-1.3em 0 0}
+#drew{padding-right:3.6em;display:block;transform:rotate(-7deg);font:1.25em/1 'Yellowtail',cursive;
 	color:#e9a4f5;font-weight:400;text-shadow:0 0 .05em #e9a4f5,.05em .1em .1em rgba(0,0,0,.5)}
 #mitchell{text-transform:uppercase;font-weight:900;
 	filter:drop-shadow( .01em 0 .025em #a09567) drop-shadow(0  .01em .025em #a09567)
