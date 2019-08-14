@@ -53,8 +53,9 @@ h1{text-align:center;line-height:1;font-size:3em;margin:-1.2em 0 0}
 		#fe35aa 80%,transparent 80%,transparent 85%,#fe35aa 85%,
 		#fe30ac 90%,transparent 90%,transparent 94%,#fe30ac 94%,
 		#fb3ebd);
-	height:6em;width:6em;border-radius:6em;
-	margin:0 auto 0;overflow:hidden;text-align:center;font-size:1em}
+	margin:0 auto 0;text-align:center;font-size:1em}
+#rc,#rc span{height:6em;width:6em;border-radius:6em}
+#rc span{overflow:hidden;display:block}
 #rc img{margin-top:.75em;width:auto;height:6em}
 
 a{color:#FCFB08;text-decoration:none}
