@@ -19,6 +19,7 @@ article::after{content:"";position:absolute;top:20vh;bottom:-1em;left:-20vw;righ
 		repeating-linear-gradient(to top, #902d88 0,#902d88 2px,transparent 2px,transparent 1em),
 		repeating-linear-gradient(to left,#902d88 0,#902d88 2px,transparent 2px,transparent 2em)
 }
+article *{perspective:0}
 
 header{margin:0;background-image:linear-gradient(#050143, #40003C 96%, #C6A9CC 98%, transparent)}
 .stars{padding:20vh 1em 1.25em;background-image:
