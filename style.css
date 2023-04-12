@@ -11,10 +11,9 @@ html{color:#FFF;background:#190039;background:#190039 radial-gradient(#40003C,#1
 	font:1.25em/1.618 Avenir,Segoe UI,Futura,Century Gothic,sans-serif}
 body{margin:0 auto;padding:0;padding-top:env(safe-area-inset-top)}
 
-article{overflow:hidden;min-height:100vh;position:relative;perspective:30em;perspective-origin:top;
-	padding-bottom:env(safe-area-inset-bottom)}
-article::after{content:"";position:absolute;top:20vh;bottom:-1em;left:-20vw;right:-20vw;
-	transform:rotateX(70deg);z-index:-1;opacity:.4;
+article{overflow:hidden;min-height:100vh;position:relative;padding-bottom:env(safe-area-inset-bottom)}
+article::after{content:"";position:absolute;top:-20vh;bottom:-20vh;left:-40vw;right:-40vw;
+	transform:perspective(30em) rotateX(70deg);z-index:-1;opacity:.4;
 	background-image:
 		repeating-linear-gradient(to top, #902d88 0,#902d88 2px,transparent 2px,transparent 1em),
 		repeating-linear-gradient(to left,#902d88 0,#902d88 2px,transparent 2px,transparent 2em)
