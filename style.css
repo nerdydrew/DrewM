@@ -65,6 +65,7 @@ a:hover{text-decoration:underline}
 
 ul{list-style-type:none;margin-left:0;padding:0 1em;text-align:center;
 	padding-left:max(1em, env(safe-area-inset-left));padding-right:max(1em, env(safe-area-inset-right))}
+ul li{margin:.5em 0}
 ul.short li{margin:0 .75em;padding:0;display:inline}
 
 @media (min-width:30em) AND (min-height:30em) {html{font-size:1.5em}}
